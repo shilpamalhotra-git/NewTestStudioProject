@@ -189,8 +189,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "92d3e9eb-b6c9-444b-b409-9f0752083f76",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "C:\\Users\\shilpamalhotra\\Documents\\Test Studio Projects\\TestProject1",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "C:\\Users\\shilpamalhotra\\Documents\\Test Studio Projects\\TestProject1"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -258,7 +270,7 @@
     "BugDescriptionMask": "{0}",
     "SelectedBrowserOption": 4,
     "SelectedResponsiveBrowserOption": 0,
-    "ResponsiveBrowserDevice": "",
+    "ResponsiveBrowserDevice": null,
     "ResponsiveBrowserWidth": 375,
     "ResponsiveBrowserHeight": 812,
     "ResponsiveBrowserUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
