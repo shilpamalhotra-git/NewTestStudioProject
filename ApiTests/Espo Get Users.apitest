@@ -1,0 +1,46 @@
+{
+  "$version": "test-case/v1",
+  "steps": [
+    {
+      "key": "6sQgLvLcXMP2AVHrm5zjIT",
+      "name": "Http Request",
+      "condition": {
+        "key": "1DxLlEWx3RdGbwHXJ1m10S",
+        "name": "Pre condition",
+        "type": "verify",
+        "properties": {
+          "SourceVariable": "Body",
+          "SourcePathType": "none",
+          "OperationType": "is-equal",
+          "Expectation": ""
+        }
+      },
+      "action": {
+        "key": "6d7nml3iNebkTsbCY0O9nI",
+        "type": "http-request",
+        "properties": {
+          "Method": "GET",
+          "Body": "{\"Content\":\"{\\r\\n    \\\"name\\\": \\\"shilpa\\\",\\r\\n    \\\"job\\\": \\\"leader\\\"\\r\\n}\",\"FilePath\":null,\"Mode\":\"raw\"}",
+          "Authorization": "{\"mode\":\"basic\",\"properties\":{\"username\":\"admin\",\"password\":\"nagarro@123\",\"properties\":{}}}",
+          "Url": "http://10.127.129.52/espocrm/api/v1/Account",
+          "Headers": "[{\"Content-Type\":\"application/json\"}]"
+        }
+      },
+      "verifications": [
+        {
+          "key": "48qPRSmvgGAqGMvEhtym7O",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "StatusCode",
+            "SourcePathType": "none",
+            "OperationType": "is-equal-number",
+            "Expectation": "200",
+            "IgnoreCase": false,
+            "SourcePath": null
+          }
+        }
+      ]
+    }
+  ],
+  "variables": {}
+}

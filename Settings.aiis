@@ -1,0 +1,266 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.UserSettings",
+  "__value": {
+    "UseHttpProxy": false,
+    "RecordjQueryInDescriptorsIfPossible": true,
+    "ShouldDeleteElement": false,
+    "SkipDeleteElementPrompt": false,
+    "HideFindExpressionWelcome": false,
+    "MenuHoldTime": 1.0,
+    "SilverlightConnectTimeout": 60000,
+    "BaseClassName": "BaseWebAiiTest",
+    "UrlRecordMode": 2,
+    "HighlightBorderColor": -65536,
+    "HighlightBorderSize": 1,
+    "CodeGenerationElementIdentificationType": 1,
+    "UrlHistory": [],
+    "AbsoluteDragDropRecording": true,
+    "ImageScalePercentage": 75,
+    "SkipTranslatorsOptimization": false,
+    "SelectedIdentificaitonScheme": "Html",
+    "IdentificationSchemes": {
+      "Html": {
+        "__type": "ArtOfTest.Common.Design.Translation.IdentificationOptionsScheme",
+        "__value": {
+          "CheckFindParamUniqueness": true,
+          "AutoDetectTestRegions": true,
+          "TryAttributeCombinations": true,
+          "AlwaysAssertTagName": true,
+          "IdentificationsPerTag": {
+            "All Elements": {
+              "__type": "ArtOfTest.Common.Design.Translation.IdentificationDescriptorList",
+              "__value": [
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "id"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "name"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "src"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "href"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "value"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": "alt"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 1,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 8,
+                    "AttributeName": null
+                  }
+                }
+              ]
+            }
+          },
+          "TechnologyType": 1
+        }
+      },
+      "Silverlight": {
+        "__type": "ArtOfTest.Common.Design.Translation.IdentificationOptionsScheme",
+        "__value": {
+          "CheckFindParamUniqueness": true,
+          "AutoDetectTestRegions": true,
+          "TryAttributeCombinations": true,
+          "AlwaysAssertTagName": true,
+          "IdentificationsPerTag": {
+            "All Elements": {
+              "__type": "ArtOfTest.Common.Design.Translation.IdentificationDescriptorList",
+              "__value": [
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 5,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 1,
+                    "AttributeName": null
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Silverlight.SilverlightIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": true,
+                    "SearchType": 6,
+                    "AttributeName": null
+                  }
+                }
+              ]
+            }
+          },
+          "TechnologyType": 2
+        }
+      }
+    },
+    "UnitTypeTypeGeneration": 1,
+    "RecorderBaseUrl": "",
+    "IsStoryBoardCapturingEnabled": true,
+    "IsElementImageCapturingEnabled": true,
+    "UseScreenshotCache": true,
+    "EnableImageSearch": true,
+    "ScrollOnImageSearch": true,
+    "DisplayElementImagePreview": true,
+    "ElementImageThreshold": 90,
+    "ElementImageSearchTimeout": 15000,
+    "SearchByImageFirst": false,
+    "ElementImageSearchDelay": 300,
+    "SimulateRealClickByDefault": false,
+    "SimulateRealTypingByDefault": false,
+    "SimulateRealSilverlightUserByDefault": true,
+    "DefaultDropDownSelection": 1,
+    "QuickExecutionElementWaitTimeout": 15000,
+    "QuickExecutionClientReadyTimeout": 60000,
+    "QcServerUrl": null,
+    "QcUserName": "",
+    "QcPassword": "",
+    "QcSkipAuthDialog": false,
+    "QcDomain": null,
+    "QcProject": null,
+    "TfsUserName": "",
+    "TfsPassword": "",
+    "TfsSkipAuthDialog": true,
+    "TfsDomain": "",
+    "TeamPulseServerUrl": "",
+    "TpUserName": "",
+    "TpPassword": "",
+    "TpUseWindowsAuth": false,
+    "TpSkipAuthDialog": false,
+    "TpDefaultProjectId": -1,
+    "RecordWpfWindowStateChanged": false,
+    "PromptNameOnAddElement": true,
+    "DefaultWPFApplication": null,
+    "UseLegacySilverlightFindLogic": false,
+    "ProjectGuid": "92d3e9eb-b6c9-444b-b409-9f0752083f76",
+    "SourceControlRepository": null,
+    "IsOnline": false,
+    "ProjectLanguage": 1,
+    "ProjectReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
+    "ScheduleServerUrl": "http://localhost:8009",
+    "IsScheduleServerRemote": false,
+    "NotificationSettings": null,
+    "WebComponents": true,
+    "ProjectVersion": "2020.2.827.0",
+    "Namespace": "TestProject1",
+    "AssemblyName": "TestProject1",
+    "OutputFolder": "bin",
+    "ExcludedFiles": [],
+    "InDevelopmentFiles": [],
+    "DisabledTranslators": [],
+    "SkipFindExpressionSetDataDrivenWarning": false,
+    "BugTrackerPersistableSettings": {
+      "JIRA Server": {
+        "__type": "Telerik.TestStudio.Jira.BugTracking.JiraConnectionModel",
+        "__value": {
+          "ServerName": "https://jira.nagarro.com/",
+          "User": "shilpamalhotra",
+          "Password": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.Base64String",
+            "__value": {
+              "Base64value": "RG9sbCMyMjEwMTk5Mg=="
+            }
+          },
+          "SelectedProject": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.JiraProject",
+            "__value": {
+              "self": "https://jira.nagarro.com/rest/api/2/project/28653",
+              "id": 28653,
+              "key": "CLICD",
+              "name": "ClickDummy",
+              "avatarUrls": {
+                "48x48": "https://jira.nagarro.com/secure/projectavatar?pid=28653&avatarId=10011",
+                "24x24": "https://jira.nagarro.com/secure/projectavatar?size=small&pid=28653&avatarId=10011",
+                "16x16": "https://jira.nagarro.com/secure/projectavatar?size=xsmall&pid=28653&avatarId=10011",
+                "32x32": "https://jira.nagarro.com/secure/projectavatar?size=medium&pid=28653&avatarId=10011"
+              }
+            }
+          },
+          "CurrentVersion": "2020.2.910.0",
+          "XmlBlob": null
+        }
+      }
+    },
+    "ActiveBugTrackers": [
+      "JIRA Server"
+    ],
+    "BugTitleMask": "{0} step on {1} test failed.",
+    "BugAddAttachment": true,
+    "BugAutoSubmit": true,
+    "BugDescriptionMask": "{0}",
+    "SelectedBrowserOption": 4,
+    "SelectedResponsiveBrowserOption": 0,
+    "ResponsiveBrowserDevice": "",
+    "ResponsiveBrowserWidth": 375,
+    "ResponsiveBrowserHeight": 812,
+    "ResponsiveBrowserUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+  }
+}

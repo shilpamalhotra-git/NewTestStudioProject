@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="1" failed="0" unexecuted="1" time="733" total="2">
+  <tests>
+    <test key=".\ApiTests\Espo Get Users" name="Espo Get Users" outcome="passed" time="555">
+      <step id="6sQgLvLcXMP2AVHrm5zjIT" name="Http Request" outcome="passed" time="551">
+        <action id="1DxLlEWx3RdGbwHXJ1m10S" name="Pre condition" type="verify" outcome="true" time="29" />
+        <action id="6d7nml3iNebkTsbCY0O9nI" type="http-request" outcome="passed" time="512" />
+        <action id="48qPRSmvgGAqGMvEhtym7O" type="verify" outcome="passed" time="2" />
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: GET http://10.127.129.52/espocrm/api/v1/Account" />
+    <output message="Response received with status code: 200 OK" />
+  </output>
+  <errors />
+</run>
