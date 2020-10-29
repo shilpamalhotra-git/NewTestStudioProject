@@ -189,20 +189,8 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "92d3e9eb-b6c9-444b-b409-9f0752083f76",
-    "SourceControlRepository": {
-      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
-      "__value": {
-        "RemotePath": "C:\\Users\\shilpamalhotra\\Documents\\Test Studio Projects\\TestProject1",
-        "ServerInfo": {
-          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
-          "__value": {
-            "ServerName": "C:\\Users\\shilpamalhotra\\Documents\\Test Studio Projects\\TestProject1"
-          }
-        },
-        "ServerType": 2
-      }
-    },
-    "IsOnline": true,
+    "SourceControlRepository": null,
+    "IsOnline": false,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -215,7 +203,9 @@
       "Telerik.TestingFramework.Controls.KendoUI, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
     "ScheduleServerUrl": "http://localhost:8009",
     "IsScheduleServerRemote": false,

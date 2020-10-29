@@ -21,8 +21,11 @@
           "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
           "__value": {
             "IsProfilingExecution": false,
-            "ExecutingBrowsers": [],
-            "UseMultiBrowserExecution": false,
+            "ExecutingBrowsers": [
+              2,
+              6
+            ],
+            "UseMultiBrowserExecution": true,
             "RecycleBrowser": false,
             "AspNetDevServerPort": -1,
             "LocalWebServer": 0,
@@ -84,7 +87,15 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "a9a93cd4-dcb6-4fe8-95cd-859b15c36068",
-          "Path": "DemoQAWeb.tstest",
+          "Path": "Test#1 Verify Form Submission.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "55bc079f-e5b8-46cb-acb8-9427173ce59d",
+          "Path": "Test#2 Verify Form Submission Coded.tstest",
           "PathType": 0
         }
       }

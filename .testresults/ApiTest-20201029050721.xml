@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="1" time="2431" total="2">
+  <tests>
+    <test key=".\ApiTests\Espo Get Users" name="Espo Get Users" outcome="failed" time="2178">
+      <step id="6sQgLvLcXMP2AVHrm5zjIT" name="Http Request" outcome="failed" time="2175">
+        <action id="1DxLlEWx3RdGbwHXJ1m10S" name="Pre condition" type="verify" outcome="true" time="27" />
+        <action id="6d7nml3iNebkTsbCY0O9nI" type="http-request" outcome="failed" time="2139">
+          <error message="The operation has timed-out." />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output>
+    <output message="Executing HTTP Request: GET http://10.127.129.52/espocrm/api/v1/Account" />
+  </output>
+  <errors />
+</run>

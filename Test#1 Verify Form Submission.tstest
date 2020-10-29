@@ -1518,7 +1518,7 @@
           "FindExpression": {
             "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
             "__value": {
-              "uniqueKey": null,
+              "uniqueKey": "b9sxrk9281NRbhWTsNKwlN2SW4I=",
               "NodeKind": 9,
               "TechnologyType": 1,
               "Name": "Element",
@@ -1568,8 +1568,8 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "DemoQAWeb.resx",
-    "ElementImageStoreFilePath": "DemoQAWeb.imgstore",
+    "ResourceFilePath": "Test#1 Verify Form Submission.resx",
+    "ElementImageStoreFilePath": "Test#1 Verify Form Submission.imgstore",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1599,9 +1599,9 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "DemoQAWeb",
+    "Name": "Test#1 Verify Form Submission",
     "Owner": "",
-    "Path": "DemoQAWeb.tstest",
+    "Path": "Test#1 Verify Form Submission.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a9a93cd4-dcb6-4fe8-95cd-859b15c36068",
