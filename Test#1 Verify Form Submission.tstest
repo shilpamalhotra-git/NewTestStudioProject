@@ -20,7 +20,9 @@
       "Telerik.TestingFramework.Controls.KendoUI, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
       "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "Telerik.TestStudio.Translators.Common, Version=2020.2.910.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -1521,7 +1523,7 @@
               "uniqueKey": "b9sxrk9281NRbhWTsNKwlN2SW4I=",
               "NodeKind": 9,
               "TechnologyType": 1,
-              "Name": "Element",
+              "Name": "Firstnameinputfield",
               "FindExpressions": [
                 {
                   "Key": 1,
